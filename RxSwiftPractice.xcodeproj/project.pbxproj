@@ -22,6 +22,7 @@
 		D16D8CD12C58D2C000AF7677 /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16D8CD02C58D2C000AF7677 /* SwitchViewController.swift */; };
 		D16D8CD32C58D4F500AF7677 /* TextFieldButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16D8CD22C58D4F500AF7677 /* TextFieldButtonViewController.swift */; };
 		D16D8CD52C58DB5900AF7677 /* SimpleTableViewExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16D8CD42C58DB5900AF7677 /* SimpleTableViewExampleViewController.swift */; };
+		D16D8CD82C58E2A900AF7677 /* SimplePickerViewExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16D8CD72C58E2A900AF7677 /* SimplePickerViewExampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		D16D8CD02C58D2C000AF7677 /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
 		D16D8CD22C58D4F500AF7677 /* TextFieldButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldButtonViewController.swift; sourceTree = "<group>"; };
 		D16D8CD42C58DB5900AF7677 /* SimpleTableViewExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewExampleViewController.swift; sourceTree = "<group>"; };
+		D16D8CD72C58E2A900AF7677 /* SimplePickerViewExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePickerViewExampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				D16D8CD02C58D2C000AF7677 /* SwitchViewController.swift */,
 				D16D8CD22C58D4F500AF7677 /* TextFieldButtonViewController.swift */,
 				D16D8CD42C58DB5900AF7677 /* SimpleTableViewExampleViewController.swift */,
+				D16D8CD72C58E2A900AF7677 /* SimplePickerViewExampleViewController.swift */,
 				D16D8CCC2C58CFB400AF7677 /* BaseViewController.swift */,
 				D16D8CCA2C58CF8300AF7677 /* DisposeBag.swift */,
 				D16D8CB42C58C84300AF7677 /* Main.storyboard */,
@@ -173,6 +176,7 @@
 			files = (
 				D16D8CCD2C58CFB400AF7677 /* BaseViewController.swift in Sources */,
 				D16D8CCF2C58D05300AF7677 /* TableViewController.swift in Sources */,
+				D16D8CD82C58E2A900AF7677 /* SimplePickerViewExampleViewController.swift in Sources */,
 				D16D8CCB2C58CF8300AF7677 /* DisposeBag.swift in Sources */,
 				D16D8CB32C58C84300AF7677 /* PickerViewController.swift in Sources */,
 				D16D8CAF2C58C84300AF7677 /* AppDelegate.swift in Sources */,
