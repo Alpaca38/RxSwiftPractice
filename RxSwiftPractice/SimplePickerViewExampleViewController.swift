@@ -74,7 +74,7 @@ private extension SimplePickerViewExampleViewController {
             .disposed(by: disposeBag)
         
         Observable.just([UIColor.red, UIColor.green, UIColor.blue])
-            .bind(to: pickerView3.rx.items) { _, item, _ in
+            .bind(to: pickerView3.rx.items) { _, item, _ in // Int, Sequence.Element, UIView
                 let view = UIView()
                 view.backgroundColor = item
                 return view
