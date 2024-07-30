@@ -52,7 +52,7 @@ private extension PickerViewController {
             
             simplePickerView.rx.modelSelected(String.self)
                 .map { $0.description }
-                .bind(to: simpleLabel.rx.text)
+                .bind(to: simpleLabel.rx.text) // any Disposable 타입
         }
     }
 }

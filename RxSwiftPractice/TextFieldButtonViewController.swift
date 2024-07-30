@@ -71,7 +71,7 @@ private extension TextFieldButtonViewController {
             
             signButton.rx.tap
                 .bind(with: self) { owner, _ in
-                    owner.showAlert()
+                    owner.showAlert(message: "회원가입이 완료되었습니다.")
                 }
         }
     }

@@ -19,8 +19,8 @@ class BaseViewController: UIViewController {
 }
 
 extension BaseViewController {
-    func showAlert() {
-        let alert = UIAlertController(title: "회원가입이 완료되었습니다.", message: nil, preferredStyle: .alert)
+    func showAlert(message: String) {
+        let alert = UIAlertController(title: "RxSwiftPractice", message: message, preferredStyle: .alert)
         let button = UIAlertAction(title: "확인", style: .default)
         alert.addAction(button)
         present(alert, animated: true)
