@@ -16,7 +16,6 @@
 		D16D8CC42C58C96100AF7677 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D16D8CC32C58C96100AF7677 /* SnapKit */; };
 		D16D8CC72C58C97000AF7677 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = D16D8CC62C58C97000AF7677 /* RxCocoa */; };
 		D16D8CC92C58C97000AF7677 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D16D8CC82C58C97000AF7677 /* RxSwift */; };
-		D16D8CCB2C58CF8300AF7677 /* DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16D8CCA2C58CF8300AF7677 /* DisposeBag.swift */; };
 		D16D8CCD2C58CFB400AF7677 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16D8CCC2C58CFB400AF7677 /* BaseViewController.swift */; };
 		D16D8CCF2C58D05300AF7677 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16D8CCE2C58D05300AF7677 /* TableViewController.swift */; };
 		D16D8CD12C58D2C000AF7677 /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16D8CD02C58D2C000AF7677 /* SwitchViewController.swift */; };
@@ -34,7 +33,6 @@
 		D16D8CB72C58C84400AF7677 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D16D8CBA2C58C84400AF7677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D16D8CBC2C58C84400AF7677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D16D8CCA2C58CF8300AF7677 /* DisposeBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisposeBag.swift; sourceTree = "<group>"; };
 		D16D8CCC2C58CFB400AF7677 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		D16D8CCE2C58D05300AF7677 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		D16D8CD02C58D2C000AF7677 /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 				D16D8CD42C58DB5900AF7677 /* SimpleTableViewExampleViewController.swift */,
 				D16D8CD72C58E2A900AF7677 /* SimplePickerViewExampleViewController.swift */,
 				D16D8CCC2C58CFB400AF7677 /* BaseViewController.swift */,
-				D16D8CCA2C58CF8300AF7677 /* DisposeBag.swift */,
 				D16D8CB42C58C84300AF7677 /* Main.storyboard */,
 				D16D8CB72C58C84400AF7677 /* Assets.xcassets */,
 				D16D8CB92C58C84400AF7677 /* LaunchScreen.storyboard */,
@@ -177,7 +174,6 @@
 				D16D8CCD2C58CFB400AF7677 /* BaseViewController.swift in Sources */,
 				D16D8CCF2C58D05300AF7677 /* TableViewController.swift in Sources */,
 				D16D8CD82C58E2A900AF7677 /* SimplePickerViewExampleViewController.swift in Sources */,
-				D16D8CCB2C58CF8300AF7677 /* DisposeBag.swift in Sources */,
 				D16D8CB32C58C84300AF7677 /* PickerViewController.swift in Sources */,
 				D16D8CAF2C58C84300AF7677 /* AppDelegate.swift in Sources */,
 				D16D8CD52C58DB5900AF7677 /* SimpleTableViewExampleViewController.swift in Sources */,

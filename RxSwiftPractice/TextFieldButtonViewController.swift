@@ -55,7 +55,7 @@ private extension TextFieldButtonViewController {
     }
     
     func setSign() {
-        disposeBag.store {
+        disposeBag.insert {
             Observable.combineLatest(simpleName.rx.text.orEmpty, simpleEmail.rx.text.orEmpty) { value1, value2 in
                 return "name은 \(value1)이고, email은 \(value2)입니다."
             }

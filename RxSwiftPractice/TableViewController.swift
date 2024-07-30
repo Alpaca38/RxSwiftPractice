@@ -45,7 +45,7 @@ private extension TableViewController {
             "Third Item"
         ])
         
-        disposeBag.store {
+        disposeBag.insert {
             items
                 .bind(to: simpleTableView.rx.items) { (tableView, row, element) in
                     let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")!

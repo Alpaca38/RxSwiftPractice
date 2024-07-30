@@ -44,7 +44,7 @@ private extension PickerViewController {
             "기타"
         ])
         
-        disposeBag.store {
+        disposeBag.insert {
             items
                 .bind(to: simplePickerView.rx.itemTitles) { (row, element) in
                     return element
