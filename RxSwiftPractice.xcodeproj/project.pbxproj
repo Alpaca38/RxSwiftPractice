@@ -24,6 +24,8 @@
 		D16D8CD82C58E2A900AF7677 /* SimplePickerViewExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16D8CD72C58E2A900AF7677 /* SimplePickerViewExampleViewController.swift */; };
 		D16D8CDA2C59170100AF7677 /* NumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16D8CD92C59170100AF7677 /* NumbersViewController.swift */; };
 		D16D8CDC2C5930FC00AF7677 /* SimpleValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16D8CDB2C5930FC00AF7677 /* SimpleValidationViewController.swift */; };
+		D16D8CE02C5A1A9400AF7677 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16D8CDF2C5A1A9400AF7677 /* PasswordViewController.swift */; };
+		D16D8CE22C5A1C1E00AF7677 /* PointButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16D8CE12C5A1C1E00AF7677 /* PointButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		D16D8CD72C58E2A900AF7677 /* SimplePickerViewExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePickerViewExampleViewController.swift; sourceTree = "<group>"; };
 		D16D8CD92C59170100AF7677 /* NumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersViewController.swift; sourceTree = "<group>"; };
 		D16D8CDB2C5930FC00AF7677 /* SimpleValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleValidationViewController.swift; sourceTree = "<group>"; };
+		D16D8CDF2C5A1A9400AF7677 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		D16D8CE12C5A1C1E00AF7677 /* PointButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 				D16D8CD72C58E2A900AF7677 /* SimplePickerViewExampleViewController.swift */,
 				D16D8CD92C59170100AF7677 /* NumbersViewController.swift */,
 				D16D8CDB2C5930FC00AF7677 /* SimpleValidationViewController.swift */,
+				D16D8CDF2C5A1A9400AF7677 /* PasswordViewController.swift */,
+				D16D8CE12C5A1C1E00AF7677 /* PointButton.swift */,
 				D16D8CCC2C58CFB400AF7677 /* BaseViewController.swift */,
 				D16D8CB42C58C84300AF7677 /* Main.storyboard */,
 				D16D8CB72C58C84400AF7677 /* Assets.xcassets */,
@@ -182,12 +188,14 @@
 				D16D8CDC2C5930FC00AF7677 /* SimpleValidationViewController.swift in Sources */,
 				D16D8CCF2C58D05300AF7677 /* TableViewController.swift in Sources */,
 				D16D8CD82C58E2A900AF7677 /* SimplePickerViewExampleViewController.swift in Sources */,
+				D16D8CE02C5A1A9400AF7677 /* PasswordViewController.swift in Sources */,
 				D16D8CB32C58C84300AF7677 /* PickerViewController.swift in Sources */,
 				D16D8CAF2C58C84300AF7677 /* AppDelegate.swift in Sources */,
 				D16D8CD52C58DB5900AF7677 /* SimpleTableViewExampleViewController.swift in Sources */,
 				D16D8CB12C58C84300AF7677 /* SceneDelegate.swift in Sources */,
 				D16D8CD32C58D4F500AF7677 /* TextFieldButtonViewController.swift in Sources */,
 				D16D8CD12C58D2C000AF7677 /* SwitchViewController.swift in Sources */,
+				D16D8CE22C5A1C1E00AF7677 /* PointButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
